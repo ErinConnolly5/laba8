@@ -1,11 +1,13 @@
 #include <sdt.h>
 int main()
 {
-	int a, b,sum;
+	int a, b,sum,raz;
 	printf("Введите число а\n");
 	scanf("%d", &a);
 	printf("Введите число b\n");
 	scanf("%d", &b);
 	int sum = a + b;
 	printf("Cумма введенных чисел равна = %d", sum);
+	int raz = a - b;
+	printf("Разность введенных чисел равна = %d", raz);
 }
