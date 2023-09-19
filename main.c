@@ -2,7 +2,7 @@
 //ПРОГРАММА ЯВЛЯЕТСЯ УЧЕБНОЙ
 int main()
 {
-	int a, b,sum,raz,del;
+	int a, b,sum,raz,del,proiz;
 	printf("Введите число а\n");
 	scanf("%d", &a);
 	printf("Введите число b\n");
@@ -11,6 +11,8 @@ int main()
 	printf("Cумма введенных чисел равна = %d", sum);
 	int raz = a - b;
 	printf("Разность введенных чисел равна = %d", raz);
-	int del = a/b;
+	int proiz = a/b;
 	printf("Разность введенных чисел равна = %d", del);
+	int del = a*b;
+	printf("Разность введенных чисел равна = %d", proiz);
 }
