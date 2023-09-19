@@ -1,4 +1,5 @@
 #include <sdt.h>
+//ПРОГРАММА ЯВЛЯЕТСЯ УЧЕБНОЙ
 int main()
 {
 	int a, b,sum;
